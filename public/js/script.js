@@ -43,7 +43,6 @@ $(document).ready(function() {
       type: "DELETE",
       url: "/deleteWork/" + id,
       success: function(response) {
-        alert("Delete Success");
         window.location.href = "/";
       },
       error: function(err) {
